@@ -15,7 +15,7 @@ def count_files_with_language(filepath):
         f.extend(filenames)
         documentLangCount = dict({})
         for (file) in filenames:
-            with open(os.path.join(dirpath, file), "r") as content:
+            with open(os.path.join(dirpath, file), "rb") as content:
                 if content.name.endswith(".txt"):
                     text = content.read()
                     # ignores conversion errors
@@ -35,7 +35,7 @@ def count_files_with_language(filepath):
 def print_files_and_languages(filepath, language):
     for (dirpath, dirname, filenames) in walk(filepath):
         for (file) in filenames:
-            with open(os.path.join(dirpath, file), "r") as content:
+            with open(os.path.join(dirpath, file), "rb") as content:
                 if content.name.endswith(".txt"):
                     text = content.read()
                    # ignores conversion errors
@@ -45,7 +45,7 @@ def print_files_and_languages(filepath, language):
                         print(lang + "," + file)
 
 def main():
-    verbosity, filepath = raw_input("verbosity [print, count] and directory with .txt files to determine languages from: ").split()
+    verbosity, filepath = input("verbosity [print, count] and directory with .txt files to determine languages from: ").split()
     languages = count_files_with_language(filepath)
     if verbosity == "print":
        for key in languages:

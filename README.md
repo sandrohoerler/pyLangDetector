@@ -14,7 +14,7 @@ count file per language in a folder
 
 
 ```buildoutcfg
-python2 detectLanguage.py count {directory}
+python3.7 detectLanguage.py count {directory}
 en : 171
 de : 12
 fr : 19
