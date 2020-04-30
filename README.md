@@ -9,7 +9,7 @@ super simple language detector written in python using https://pypi.org/project/
 hi, hr, hu, id, it, ja, kn, ko, lt, lv, mk, ml, mr, ne, nl, no, pa, pl,
 pt, ro, ru, sk, sl, so, sq, sv, sw, ta, te, th, tl, tr, uk, ur, vi, zh-cn, zh-tw```
 ```
-## Executiuon
+## Execution
 count file per language in a folder
 
 
