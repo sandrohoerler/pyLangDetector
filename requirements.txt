@@ -6,7 +6,7 @@
 # pyLangDetector/venv/lib64/python3.6/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/__init__.py: 101
 # pyLangDetector/venv/lib64/python3.6/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/requests/help.py: 23
 # pyLangDetector/venv/lib64/python3.6/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/urllib3/contrib/pyopenssl.py: 51,143
-cryptography == 2.1.4
+cryptography == 2.3
 
 # pyLangDetector/venv/lib/python3.6/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/_trie/datrie.py: 3
 # pyLangDetector/venv/lib64/python3.6/site-packages/pip-19.0.3-py3.6.egg/pip/_vendor/html5lib/_trie/datrie.py: 3
